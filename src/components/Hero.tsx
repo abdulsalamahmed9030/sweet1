@@ -20,10 +20,7 @@ const Hero = () => {
           Authentic Spanish & Italian Desserts
         </span>
 
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-display font-bold text-primary mb-6 text-balance">
-          Freshly Made Desserts,<br />
-          <span className="text-chocolate-light italic">Delivered with Love</span> 🍩
-        </h1>
+        
 
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8 font-body">
           Your sweet escape into authentic Spanish & Italian treats – handcrafted fresh every single day in Hyderabad.
