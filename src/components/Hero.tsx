@@ -11,7 +11,7 @@ const Hero = () => {
           alt="Freshly made Italian desserts including Bomboloni, Churros and San Sebastian Cheesecake"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/70 via-background/50 to-background" />
+        <div className="absolute inset-0 " />
       </div>
 
       {/* Content */}
@@ -20,9 +20,10 @@ const Hero = () => {
 
         
 
-        <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8 font-body">
-          Your sweet escape into authentic Spanish & Italian treats – handcrafted fresh every single day in Hyderabad.
-        </p>
+       <p className="text-lg md:text-xl text-white max-w-2xl mx-auto mb-8 font-body bg-[#cda379] px-6 py-4 rounded-lg">
+  Your sweet escape into authentic Spanish & Italian treats – handcrafted fresh every single day in Hyderabad.
+</p>
+
 
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
@@ -54,10 +55,11 @@ const Hero = () => {
         </div>
 
         {/* Open Hours */}
-        <p className="text-sm text-muted-foreground">
-          <span className="inline-block w-2 h-2 bg-green-500 rounded-full mr-2 animate-pulse" />
-          Open Daily • 9:00 AM – 11:00 PM
-        </p>
+       <p className="text-sm text-white/90 bg-[#cda379] px-4 py-2 rounded-md inline-flex items-center">
+  <span className="inline-block w-2 h-2 bg-green-500 rounded-full mr-2 animate-pulse" />
+  Open Daily • 9:00 AM – 11:00 PM
+</p>
+
       </div>
 
       {/* Scroll Indicator */}
