@@ -16,9 +16,7 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 pt-20 pb-32 text-center">
-        <span className="inline-block px-4 py-2 bg-accent/20 text-primary rounded-full text-sm font-medium mb-6">
-          Authentic Spanish & Italian Desserts
-        </span>
+      
 
         
 
